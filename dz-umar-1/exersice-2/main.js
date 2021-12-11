@@ -1,6 +1,11 @@
-colorText = function (){
-    let parent = document.getElementsByClassName("color").style.color = 'blue';
-    let temp = document.getElementById('element 1').style.color = 'blue';
-
-
+let coloring = () => {
+    let myNodelist = document.querySelectorAll(".element");
+    for (let i = 0; i < myNodelist.length; i++){
+        if (i < 3) {
+            myNodelist[i].style.color = "red";
+        } else {
+            myNodelist[i].style.color = "green";
+        }
+    }
 }
+coloring();

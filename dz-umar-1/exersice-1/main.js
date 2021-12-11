@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onload = func = () => {
     let parent = document.getElementById("parent");
     let before = document.getElementById("string-1");
     let temp = document.getElementById("string-3");

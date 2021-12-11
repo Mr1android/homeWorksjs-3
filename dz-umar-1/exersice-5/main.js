@@ -1,8 +1,6 @@
-window.onload = function () {
-    let container = document.getElementById('cart-items');
-    let Delete = document.getElementById('classDelete');
-    container.remove(Delete)
-    let temp = document.getElementById('cam');
-    temp.replaceChild("Canned Fish")
-
+ window.onload = function () {
+     let parent = document.getElementById('cart-items');
+    let before = document.getElementById("classDelete");
+    let temp = document.getElementById("cam");
+    parent.insertBefore(temp, before);
 }
