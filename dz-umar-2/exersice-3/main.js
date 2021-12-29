@@ -18,8 +18,7 @@
         reset.addEventListener("click", reset_click);
         pause.disabled = true;
         reset.disabled = true;
-        minutes.nextSibling.textContent = ":"; // Удалить лишний пробел
-
+        minutes.nextSibling.textContent = ":";
         function start_click() {
             intervalId = setInterval(tick, 1000);
             start.disabled = true;
